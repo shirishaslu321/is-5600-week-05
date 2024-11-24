@@ -242,7 +242,9 @@ Great! Now export these functions and you can now rebuild the lab, and test out 
 7. Now that we have the products module working, let's go ahead and import some data to the database. We've included a script that will read the `data/products.json` file and import the data into the database. This script can be found in the `script/import-products.js` file. To run the script, open up the Codespaces terminal and stop the currently running server. You can do this by pressing `Ctrl + C` in the terminal to stop the server and then run the following command to import the products:
 
 ```bash
-node script/import-products.js
+
+
+
 ```
 
 Once the script is complete, you'll need to restart the server. Simply execute the following command in the terminal to start the server again. Once the server is running, you should be able to see the products in the webview.
